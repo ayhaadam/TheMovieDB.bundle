@@ -12,7 +12,7 @@ API_KEY = 'a3dc111e66105f6387e99393813ae4d5'
 TMDB_CONFIG = '%s/configuration?api_key=%s' % (BASE_URL, API_KEY)
 
 # Movies
-TMDB_MOVIE_SEARCH = '%s/search/movie?api_key=%s&query=%%s&year=%%s&language=%%s&include_adult=%%s' % (BASE_URL, API_KEY)
+TMDB_MOVIE_SEARCH = '%s/search/movie?api_key=%s&query=%%s&year=%%s&%%s&language=zh-TW&include_adult=%%s' % (BASE_URL, API_KEY)
 TMDB_MOVIE = '%s/movie/%%s?api_key=%s&append_to_response=releases,credits&language=%%s' % (BASE_URL, API_KEY)
 TMDB_MOVIE_IMAGES = '%s/movie/%%s/images?api_key=%s' % (BASE_URL, API_KEY)
 
