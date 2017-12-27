@@ -12,6 +12,12 @@
         "default": "true"
     },
     {
+        "id": "localart2",
+        "label": "Prefer artwork based on library language",
+        "type": "bool",
+        "default": "true"
+    },
+    {
         "id": "adult",
         "label": "Include adult content",
         "type": "bool",
